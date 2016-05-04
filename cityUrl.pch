@@ -1,0 +1,23 @@
+//
+//  cityUrl.pch
+//  HappyWeather
+//
+//  Created by 念 on 16/4/18.
+//  Copyright © 2016年 小念. All rights reserved.
+//
+
+#ifndef cityUrl_pch
+#define cityUrl_pch
+
+//#define CITY_URL    @"http://apis.baidu.com/apistore/weatherservice/cityname"//地点
+
+#define CITY_URL    @"http://api.map.baidu.com/telematics/v3/weather?location="//地点
+#define  CITY_URL2   @"&output=json&ak=nTZHDUGA4aRaGrEXbhaXousx"
+
+#define APP_KEY     @"fe60648892858d008edbe9f8b5758ccb"//密钥
+
+//http://api.map.baidu.com/telematics/v3/weather?location=海淀&output=json&ak=nTZHDUGA4aRaGrEXbhaXousx
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* cityUrl_pch */
